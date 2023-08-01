@@ -1,3 +1,4 @@
+import LoginComponent from '@/components/LoginComponent';
 import React from 'react';
 
 interface ILoginPageProps {
@@ -7,7 +8,7 @@ interface ILoginPageProps {
 const Login = ({ property1 }: ILoginPageProps) => {
   return (
     <div>
-      <Login property1={undefined} />
+      <LoginComponent /> 
     </div>
   );
 };
